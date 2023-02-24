@@ -30,3 +30,55 @@ header{
         text-decoration: underline;
       }
 }
+
+.calendar{
+    margin-left: 10%;
+    .titleText{
+        margin-top: 200px;
+        text-decoration: underline;
+    }
+    .countdown{
+        font-size: 4rem;
+        font-weight: bold;
+        margin-top: -15px;
+    }
+    .schedule{
+        margin-top: -90px;
+    }
+    .country{
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+    }
+    .trackMap{
+        width: 70px;
+        margin-left: 15%;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      .locationImage{
+        margin-left: 1%;
+      }
+      .scheduleDate{
+        font-weight: lighter;
+        margin-top: -45px;
+        margin-left: 0.3%;
+        font-size: 0.9rem;
+      }
+
+    .scheduleTable td{
+        border-bottom: 1px solid #333;
+        padding-top: 10px;
+    }
+    .leftColumn{
+        padding-right: 120px;
+    }
+   
+    
+}
+
+
