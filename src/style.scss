@@ -1,9 +1,32 @@
 body{
     background-color: #F5F5F5;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 header{
-    ul{
-        
+    img{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 4%;
     }
+    ul{
+        list-style: none;
+    }
+    li {
+        float: left;
+        margin-left: 18%;
+        margin-right: -12%;
+        margin-top: -50px;
+      }
+      
+      li a {
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      li a:hover{
+        text-decoration: underline;
+      }
 }
